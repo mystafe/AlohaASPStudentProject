@@ -23,6 +23,7 @@ namespace ASPPTraining1.Controllers
         [HttpGet("id")]
         public University GetById(int id)
         {
+            //
             return context.Universities.Find(id);
         }
         [HttpPost]
